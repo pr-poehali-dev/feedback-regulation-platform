@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import { Helmet } from "react-helmet";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -241,9 +240,6 @@ export default function RiskAssessment() {
   
   return (
     <div className="min-h-screen bg-gray-50">
-      <Helmet>
-        <title>Тест на оценку рисков бизнеса | Консалтинговая компания</title>
-      </Helmet>
       <Header />
       
       <div className="container mx-auto py-10">
