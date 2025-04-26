@@ -18,12 +18,12 @@ const Feedback = () => {
       <Header />
       
       <main className="flex-1 bg-gray-50 py-12">
-        <div className="container px-4 md:px-6 max-w-3xl">
+        <div className="container px-4 md:px-6 max-w-4xl">
           <div className="bg-white rounded-lg shadow-sm border p-6 md:p-8">
             <div className="mb-6 text-center">
-              <h1 className="text-2xl md:text-3xl font-bold mb-2">Оставьте отзыв о консультанте</h1>
+              <h1 className="text-2xl md:text-3xl font-bold mb-2">Анкета оценки работы консультанта</h1>
               <p className="text-muted-foreground">
-                Ваше мнение поможет другим клиентам и консультантам стать лучше
+                Ваше мнение поможет нам улучшить качество сервиса и работу наших специалистов
               </p>
             </div>
             
@@ -31,21 +31,25 @@ const Feedback = () => {
           </div>
           
           <div className="mt-8 bg-secondary/50 rounded-lg p-6">
-            <h2 className="font-semibold text-lg mb-3">Почему важно оставлять отзывы?</h2>
+            <h2 className="font-semibold text-lg mb-3">Почему важно заполнять анкету оценки?</h2>
             <ul className="space-y-3">
               <li className="flex gap-2">
                 <span className="text-primary">✓</span>
-                <span>Помогаете другим клиентам выбрать подходящего консультанта</span>
+                <span>Помогаете консультантам совершенствовать свои навыки и подход к работе</span>
               </li>
               <li className="flex gap-2">
                 <span className="text-primary">✓</span>
-                <span>Даёте консультантам возможность улучшить свои услуги</span>
+                <span>Делитесь опытом с другими клиентами, помогая им сделать правильный выбор</span>
               </li>
               <li className="flex gap-2">
                 <span className="text-primary">✓</span>
-                <span>Повышаете общее качество консалтинговых услуг</span>
+                <span>Участвуете в формировании качественной команды экспертов</span>
               </li>
             </ul>
+          </div>
+          
+          <div className="mt-6 text-center text-sm text-muted-foreground">
+            <p>Все отзывы проходят модерацию перед публикацией. Мы гарантируем конфиденциальность ваших персональных данных.</p>
           </div>
         </div>
       </main>
